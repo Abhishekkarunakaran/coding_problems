@@ -3,7 +3,8 @@ def fun(num, ls):
     while num != 0:
         secNum += (num % 10) ** 2
         num = int(num / 10)
-
+        
+    # just to display the steps
     print(secNum)
 
     if secNum == 1:
